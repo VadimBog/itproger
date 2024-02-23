@@ -15,7 +15,7 @@ export default async function Home() {
         <div key={el.id} className="post">
             <h2>{el.title}</h2>
             <p>{el.body}</p>
-            <Link href={`/post` + el.id}>Post detail</Link>
+            <Link href={`/post/` + el.id}>Post detail</Link>
         </div>
       ))}
     </div>
